@@ -151,14 +151,73 @@
             {
                 points = points + 1;
             }
-
+            if (checkBox12.Checked)
+            {
+                points = points + 1;
+            }
+            if (checkBox13.Checked)
+            {
+                points = points + 1;
+            }
+            if (checkBox14.Checked)
+            {
+                points = points + 1;
+            }
+            if (checkBox15.Checked)
+            {
+                points = points + 2;
+            }
+            if (checkBox16.Checked)
+            {
+                points = points + 1;
+            }
+            if (checkBox17.Checked)
+            {
+                points = points + 1;
+            }
+            if (checkBox18.Checked)
+            {
+                points = points + 1;
+            }
+            if (checkBox19.Checked)
+            {
+                points = points + 1;
+            }
+            if (checkBox20.Checked)
+            {
+                points = points + 1;
+            }
+            if (checkBox21.Checked)
+            {
+                points = points + 1;
+            }
+            if(checkBox22.Checked)
+            {
+                points = points + 3;
+            }
+            if (checkBox23.Checked)
+            {
+                points = points + 3;
+            }
+            if (checkBox24.Checked)
+            {
+                points = points + 4;
+            }
+            if (checkBox25.Checked)
+            {
+                points = points + 1;
+            }
+            if (checkBox26.Checked)
+            {
+                points = points + 1;
+            }
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             checker();
-            MessageBox.Show(points.ToString(), "Подсчёт выполнен");
+            MessageBox.Show("Количество баллов: " + points.ToString(), "Подсчёт выполнен");
             points = 0;
         }
     }
